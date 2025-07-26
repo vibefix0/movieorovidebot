@@ -4,7 +4,7 @@ API_ID = 26840557
 API_HASH = "cad0724aa97f65e118bf3599d8ba9c50"
 BOT_TOKEN = "8160041262:AAH18KC3LCAFPJxZn1vPBXD4TJjz3O6F9VM"
 
-app = Client("movieverse_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
+app = Client("movieorovidebot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 @app.on_message(filters.command("start"))
 def start(client, message):
